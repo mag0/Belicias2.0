@@ -1,0 +1,104 @@
+{
+  "productos": [
+    {
+      "nombre": "Torta de Chocolate",
+      "precio": 1599.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Croissant de Almendra",
+      "precio": 249.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Donut Glaseado",
+      "precio": 199.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Éclair de Vainilla",
+      "precio": 399.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Tarta de Manzana",
+      "precio": 1250.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Pastel de Zanahoria",
+      "precio": 1499.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Macarons",
+      "precio": 999.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Tartaleta de Frutas",
+      "precio": 425.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Cupcake de Fresa",
+      "precio": 275.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Palmera de Chocolate",
+      "precio": 175.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Tarta de Limón",
+      "precio": 1375.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Rollito de Canela",
+      "precio": 225.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Brazo de Gitano",
+      "precio": 1199.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Torta Red Velvet",
+      "precio": 1650.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Galletas de Mantequilla",
+      "precio": 599.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Profiteroles",
+      "precio": 825.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Tarta de Queso",
+      "precio": 1099.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Rosquilla Rellena",
+      "precio": 225.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Crepas con Nutella",
+      "precio": 750.00,
+      "imagen": "../../public/torta.webp"
+    },
+    {
+      "nombre": "Muffin de Arándanos",
+      "precio": 325.00,
+      "imagen": "../../public/torta.webp"
+    }
+  ]
+}

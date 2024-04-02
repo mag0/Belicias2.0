@@ -1,0 +1,49 @@
+@import url('../index.css');
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-principal);
+    height: 15em;
+    font-size: 2em;
+    color: white;
+}
+
+footer .descripcion{
+    padding: 0 5em;
+    width: 50%;
+}
+
+.redes-footer{
+    width: 50%;
+    text-align: center;
+}
+
+
+@media screen and (width<=1440px) {  
+    footer .descripcion{
+        width: 80%;
+    }
+    .redes-footer{
+        width: 20%;
+    }
+}
+
+@media screen and (width<=1024px) {
+    
+}
+
+@media screen and (width<=768px) {
+    footer{
+        height: 10em;
+        font-size: 1.2em;
+    }
+    footer .descripcion{
+        padding: 0 2em;
+    }
+}
+
+@media screen and (width<=500px) {
+
+}
