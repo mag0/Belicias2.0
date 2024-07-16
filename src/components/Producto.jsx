@@ -4,7 +4,7 @@ import React from 'react'
 
 
 const Producto = ({imagen,nombre}) => {
-    const rutaCompleta = '../public/img/' + imagen;
+    const rutaCompleta = `../../src/img/${imagen}`;
 
     return (
     <>
