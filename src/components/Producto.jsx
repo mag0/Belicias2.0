@@ -1,10 +1,10 @@
 import React from 'react'
+
 // import '../css/producto.css'
 
 
 const Producto = ({imagen,nombre}) => {
-
-    const rutaCompleta = '../src/img/' + imagen;
+    const rutaCompleta = './src/img/' + imagen;
 
     return (
     <>
