@@ -5,7 +5,7 @@ import '../css/secciones/quienSoy.css';
 import '../css/secciones/contactanos.css';
 import Producto from './Producto.jsx';
 import productos from '../productos.json';
-import perfil from '../img/perfil.jpeg';
+import perfil from '../public/img/perfil.jpeg';
 
 const Section = () => {
 
