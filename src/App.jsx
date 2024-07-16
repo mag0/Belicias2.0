@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/Header.jsx'
-import fondo from './img/backgrounds.jpg'
-import Section from './components/Section.jsx'
+import Main from './components/Main.jsx'
 import Footer from './components/Footer.jsx'
 
 export function App() {
@@ -9,10 +8,7 @@ export function App() {
     return (
     <>
         <Header></Header>
-        <div className='imagen-oferta'>
-            <img src={fondo} alt='torta'/>
-        </div>
-        <Section></Section>
+        <Main></Main>
         <Footer></Footer>
     </>
     );

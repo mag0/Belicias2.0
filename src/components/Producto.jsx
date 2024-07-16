@@ -1,15 +1,16 @@
 import React from 'react'
-import '../css/producto.css'
+// import '../css/producto.css'
 
-const Producto = ({imagen,nombre,precio}) => {
+
+const Producto = ({imagen,nombre}) => {
+
+    const rutaCompleta = '../src/img/' + imagen;
 
     return (
-    
     <>
         <div className='producto'>
-            <img className='imagen-producto' src={imagen} alt={nombre} />
-            <h5 className='h5-producto'>$ {precio}</h5>
-            <h4 className='h4-producto'>{nombre}</h4>
+            <img src={rutaCompleta} alt={nombre} />
+            <h3 style={{color:'#F7C608'}}>{nombre}</h3>
         </div>
     </>
   )

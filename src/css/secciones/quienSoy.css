@@ -1,0 +1,41 @@
+.quien-soy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.quien-soy img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.quien-soy h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #F7C608;
+    text-align: center;
+}
+
+.quien-soy p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 1em;
+    text-align: center;
+    max-width: 100%;
+    padding: 0 1em;
+}
+
+@media (max-width: 800px) {
+    .quien-soy p {
+        font-size: 1em;
+    }
+}

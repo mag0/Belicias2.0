@@ -1,4 +1,10 @@
-.imagen-oferta img{
-    width:100%;
-    margin-top:2em;
+body{
+    margin: 0 5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    body{
+        margin: 0 0rem;
+    }
 }

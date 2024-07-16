@@ -1,174 +1,32 @@
-@import url('../index.css');
-@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Square+Peg&display=swap');
-
 header{
-    display:flex;
-    align-items: center;
-    padding: 2em 4em 0 8em;
-    position: relative;
-}
-
-.imagen-header{
-    width: 50%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    padding: 1em;
 }
 
 h1{
-    color: #F2B5D5;
-    font-size: 3em;
+    text-align: center;
 }
 
-.logo{
-    height: 8em;
+nav{
+    width: 100%;
 }
 
-.cont-nav-redes{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    font-size: 2.3em;
-}
-
-.nav-header{
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-}
-
-.nav-header li a{
-    color: var(--color-principal);
-    font-weight: 900;
-}
-
-.nav-header li a:hover{
-    border-bottom: 2px solid var(--color-principal);
-}
-
-.redes-header{
+ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    padding: 1em;
 }
 
-.icon-responsive{
-    display: none;
-    color: var(--color-principal);
+ul li a{
+    padding: .5em 1em;
+    color: black;
 }
 
-.menu-responsive-inactivo{
-    display: none;
-}
-
-@media screen and (width<=1440px) {
-    header{
-        padding: 2em 0em 0 8em;
-    }
-    .nav-header li a{
-        margin-left: 1em;
-    }
-    .cont-nav-redes{
-        width: 70%;
-        font-size: 2.3em;
-    }
-    .redes-header{
-        width: 30%;
-    }
-}
-
-@media screen and (width<=1024px) {
-    header{
-        padding: 2em 0em 0 4em;
-    }
-    .logo{
-        height: 6em;
-    }
+ul li a:hover{
     
-}
-
-@media screen and (width<=768px) {
-    header{
-        padding: 2em 0em 0 1em;
-    }
-    .nav-header li a{
-        margin-left: 1em;
-    }
-    .cont-nav-redes{
-        width: 80%;
-        font-size: 2em;
-    }
-    .redes-header{
-        width: 20%;
-    }
-    .logo{
-        height: 5em;
-    }
-}
-
-@media screen and (width<=500px) {
-    .menu-responsive-activo{
-        display: flex;
-    }
-    .logo{
-        height: 4em;
-    }
-    .icon-no-responsive{
-        display: none;
-    }
-    .icon-responsive{
-        display: block;
-        cursor: pointer;
-    }
-    .nav-header{
-        display: none;
-    }
-    nav{
-        width: 100%;
-    }
-    header{
-        justify-content: space-between;
-        position: relative;
-        padding: 1em 0em 0 1em;
-    }
-    .cont-nav-redes{
-        width: 20%;
-        font-size: 2.5em;
-    } 
-    .menu-responsive-ac{
-        transition: all 1s ease;
-        display: block;
-        padding: 0em 1em 0 2em;
-        height: 100vh;
-    }
-
-    .menu-responsive-ac nav{
-        font-size: 1.4em;
-        height: 50%;
-    }
-
-    .menu-responsive-ac nav li{
-        height: 18%;
-        border-bottom: 1px solid var(--color-principal);
-        margin-right: .5em;
-        margin-top: .5em;
-        cursor: pointer;
-    }
-
-    .menu-responsive-ac nav li a{
-        font-weight: 900;
-        color: var(--color-principal);
-    }
-
-    .menu-responsive-ac nav .menu-especial{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 1.3em;
-    }
-
-    .icon-responsive{
-        margin-right: 0em;
-    }
+    background-color: #F7C608;
 }

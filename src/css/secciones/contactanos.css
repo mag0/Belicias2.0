@@ -1,0 +1,33 @@
+.contactanos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contactanos h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #F7C608;
+}
+.contactanos p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0.5em 0;
+    text-align: center;
+}
+.contactanos .icon {
+    margin-right: 0.5em;
+}
+
+.contactanos p,a{
+    color: #F7C608;
+}
+
+@media (max-width: 800px) {
+    .contactanos {
+        flex-direction: column;
+    }
+}

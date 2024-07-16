@@ -4,19 +4,14 @@ import '../css/footer.css'
 const Footer = () => {
   return (
     <footer>
-        <div className="descripcion">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quod ad commodi sed culpa doloremque obcaecati, iure 
-            repellendus asperiores odio laborum cupiditate, natus 
-            praesentium maiores reprehenderit. Quia possimus minus 
-            vitae perspiciatis!
-        </div>
-        <div className="redes-footer">
-            <li>instagram</li>
-            <li>Facebook</li>
-            <li>Whatsapp</li>
-        </div>
-    </footer>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#menu">Productos</a></li>
+        <li><a href="#quienSoy">Conoceme</a></li>
+        <li><a href="#contacto">Contactanos</a></li>
+    </ul>
+    <p>Derechos reservados &copy; 2024</p>
+</footer>
   )
 }
 
