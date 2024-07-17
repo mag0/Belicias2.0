@@ -3,9 +3,7 @@ import '../css/main.css';
 import '../css/secciones/menu.css';
 import '../css/secciones/quienSoy.css';
 import '../css/secciones/contactanos.css';
-import Producto from './Producto.jsx';
 import productos from '../productos.json';
-import perfil from '../img/perfil.jpeg';  
 
 const Section = () => {
 
@@ -16,14 +14,17 @@ const Section = () => {
                 
                 <div className="menu">
                     {productos.map(producto => (
-                    <Producto key={producto.id} imagen={producto.imagen} nombre={producto.nombre} />
+                    <div key={producto.id}>
+                        <img src={`${producto.imagen}`} alt={producto.nombre} />
+                        <h3 style={{color:'#F7C608'}}>{producto.nombre}</h3>
+                    </div>
                     ))}
                 </div>
 
                 <div id='quienSoy' className="linea-con-texto">Conoceme</div>
 
                 <section className="quien-soy">
-                    <img src={perfil} alt="" />                    
+                    <img src='perfil.jpeg' alt="" />                    
                     <h1>María Belén Guerreiro</h1>
                     <p>
                         ¡Hola! Soy Laura Martínez, una apasionada pastelera con 10 años de experiencia en 

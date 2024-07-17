@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/header.css'
-import logo from '../img/logo.jpeg'
 
 const Header = () => {
 
@@ -9,7 +8,7 @@ const Header = () => {
         <header>
 
             <div className="imagen-header">
-                <img src={logo} alt="oso" className="logo"/>
+                <img src='logo.jpeg' alt="oso" className="logo"/>
             </div>
 
             <h1>Pasteleria Guerreiro</h1>
