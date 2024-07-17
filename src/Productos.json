@@ -1,58 +1,58 @@
 [
   {
     "id": 1,
-    "nombre": "Producto 1",
+    "nombre": "Pan de campo",
     "descripcion": "Descripción del Producto 1",
-    "imagen": "imagen2.webp",
+    "imagen": "panDeCampo.png",
     "categoria": "Tortas"
   },
   {
     "id": 2,
-    "nombre": "Producto 2",
+    "nombre": "Angel cake",
     "descripcion": "Descripción del Producto 2",
-    "imagen": "imagen2.webp",
+    "imagen": "angelCake.png",
     "categoria": "Cupcakes"
   },
   {
     "id": 3,
-    "nombre": "Producto 3",
+    "nombre": "Alfajores de maicena",
     "descripcion": "Descripción del Producto 3",
-    "imagen": "imagen2.webp",
+    "imagen": "alfajoresDeMaicena.png",
     "categoria": "Postres"
   },
   {
     "id": 4,
-    "nombre": "Producto 4",
+    "nombre": "Facturas de crema pastelera",
     "descripcion": "Descripción del Producto 4",
-    "imagen": "imagen2.webp",
+    "imagen": "facturasDeCrema.png",
     "categoria": "Galletas"
   },
   {
     "id": 5,
-    "nombre": "Producto 5",
+    "nombre": "Macitas",
     "descripcion": "Descripción del Producto 5",
-    "imagen": "imagen2.webp",
+    "imagen": "macitas.png",
     "categoria": "Tortas"
   },
   {
     "id": 6,
-    "nombre": "Producto 6",
+    "nombre": "Torta corazon decorada",
     "descripcion": "Descripción del Producto 6",
-    "imagen": "imagen2.webp",
+    "imagen": "tortaCorazon.png",
     "categoria": "Cupcakes"
   },
   {
     "id": 7,
-    "nombre": "Producto 7",
+    "nombre": "Tortitas negras",
     "descripcion": "Descripción del Producto 7",
-    "imagen": "imagen2.webp",
+    "imagen": "tortitasNegras.png",
     "categoria": "Postres"
   },
   {
     "id": 8,
-    "nombre": "Producto 8",
+    "nombre": "Tortitas negras",
     "descripcion": "Descripción del Producto 8",
-    "imagen": "imagen2.webp",
+    "imagen": "tortitasNegras2.png",
     "categoria": "Galletas"
   },
   {
