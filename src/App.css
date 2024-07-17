@@ -2,9 +2,13 @@ body{
     margin: 0 5rem;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     body{
-        margin: 0 0rem;
+        margin: 0 1rem;
     }
 }

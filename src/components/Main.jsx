@@ -4,16 +4,36 @@ import '../css/secciones/menu.css';
 import '../css/secciones/quienSoy.css';
 import '../css/secciones/contactanos.css';
 import productos from '../productos.json';
+import { useState } from 'react';
 
 const Section = () => {
+    const [categoria, setCategoria] = useState('');
+
+    const handleCategoriaChange = (e) => {
+        setCategoria(e.target.value);
+    }
+
+    const productosFiltrados = categoria === '' ? productos : productos.filter(producto => producto.categoria.toLowerCase() === categoria.toLowerCase());
 
     return (
         <>
             <main>
                 <div id='menu' className="linea-con-texto">Productos</div>
                 
+                <div className="filter-container">
+                    <label htmlFor="categoria">Filtrar por Categoría:</label>
+                    <select id="categoria" value={categoria} onChange={handleCategoriaChange} className="categoria-select">
+                        <option value="">Todas</option>
+                        <option value="tortas">Tortas</option>
+                        <option value="cupcakes">Cupcakes</option>
+                        <option value="postres">Postres</option>
+                        <option value="galletas">Galletas</option>
+                        <option value="sin-gluten">Sin Gluten</option>
+                    </select>
+                </div>
+
                 <div className="menu">
-                    {productos.map(producto => (
+                    {productosFiltrados.map(producto => (
                     <div key={producto.id}>
                         <img src={`${producto.imagen}`} alt={producto.nombre} />
                         <h3 style={{color:'#F7C608'}}>{producto.nombre}</h3>

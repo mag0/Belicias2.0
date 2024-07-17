@@ -1,52 +1,128 @@
-
 [
   {
     "id": 1,
     "nombre": "Producto 1",
     "descripcion": "Descripción del Producto 1",
-    "imagen": "imagen2.webp"
+    "imagen": "imagen2.webp",
+    "categoria": "Tortas"
   },
   {
     "id": 2,
     "nombre": "Producto 2",
     "descripcion": "Descripción del Producto 2",
-    "imagen": "imagen2.webp"
+    "imagen": "imagen2.webp",
+    "categoria": "Cupcakes"
   },
   {
     "id": 3,
     "nombre": "Producto 3",
     "descripcion": "Descripción del Producto 3",
-    "imagen": "imagen2.webp"
+    "imagen": "imagen2.webp",
+    "categoria": "Postres"
   },
   {
     "id": 4,
     "nombre": "Producto 4",
     "descripcion": "Descripción del Producto 4",
-    "imagen": "imagen2.webp"
+    "imagen": "imagen2.webp",
+    "categoria": "Galletas"
   },
   {
     "id": 5,
     "nombre": "Producto 5",
     "descripcion": "Descripción del Producto 5",
-    "imagen": "imagen2.webp"
+    "imagen": "imagen2.webp",
+    "categoria": "Tortas"
   },
   {
     "id": 6,
     "nombre": "Producto 6",
     "descripcion": "Descripción del Producto 6",
-    "imagen": "imagen2.webp"
+    "imagen": "imagen2.webp",
+    "categoria": "Cupcakes"
   },
   {
     "id": 7,
     "nombre": "Producto 7",
     "descripcion": "Descripción del Producto 7",
-    "imagen": "imagen2.webp"
+    "imagen": "imagen2.webp",
+    "categoria": "Postres"
   },
   {
     "id": 8,
     "nombre": "Producto 8",
     "descripcion": "Descripción del Producto 8",
-    "imagen": "imagen2.webp"
+    "imagen": "imagen2.webp",
+    "categoria": "Galletas"
+  },
+  {
+    "id": 9,
+    "nombre": "Producto 9",
+    "descripcion": "Descripción del Producto 9",
+    "imagen": "imagen2.webp",
+    "categoria": "Tortas"
+  },
+  {
+    "id": 10,
+    "nombre": "Producto 10",
+    "descripcion": "Descripción del Producto 10",
+    "imagen": "imagen2.webp",
+    "categoria": "Cupcakes"
+  },
+  {
+    "id": 11,
+    "nombre": "Producto 11",
+    "descripcion": "Descripción del Producto 11",
+    "imagen": "imagen2.webp",
+    "categoria": "Postres"
+  },
+  {
+    "id": 12,
+    "nombre": "Producto 12",
+    "descripcion": "Descripción del Producto 12",
+    "imagen": "imagen2.webp",
+    "categoria": "Galletas"
+  },
+  {
+    "id": 13,
+    "nombre": "Producto 13",
+    "descripcion": "Descripción del Producto 13",
+    "imagen": "imagen2.webp",
+    "categoria": "Tortas"
+  },
+  {
+    "id": 14,
+    "nombre": "Producto 14",
+    "descripcion": "Descripción del Producto 14",
+    "imagen": "imagen2.webp",
+    "categoria": "Cupcakes"
+  },
+  {
+    "id": 15,
+    "nombre": "Producto 15",
+    "descripcion": "Descripción del Producto 15",
+    "imagen": "imagen2.webp",
+    "categoria": "Postres"
+  },
+  {
+    "id": 16,
+    "nombre": "Producto 16",
+    "descripcion": "Descripción del Producto 16",
+    "imagen": "imagen2.webp",
+    "categoria": "Galletas"
+  },
+  {
+    "id": 17,
+    "nombre": "Producto 17",
+    "descripcion": "Descripción del Producto 17",
+    "imagen": "imagen2.webp",
+    "categoria": "Tortas"
+  },
+  {
+    "id": 18,
+    "nombre": "Producto 18",
+    "descripcion": "Descripción del Producto 18",
+    "imagen": "imagen2.webp",
+    "categoria": "Cupcakes"
   }
 ]
-

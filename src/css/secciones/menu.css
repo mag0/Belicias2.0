@@ -18,7 +18,7 @@
 }
 
 .menu::-webkit-scrollbar-thumb {
-    background-color: black; /* Color del scroll */
+    background-color: #F7C608; /* Color del scroll */
     border-radius: 10px;
  /* Sombreado para que se vea en fondo blanco */
 }
@@ -27,6 +27,44 @@
     background: transparent; /* Fondo del track del scroll */
 }
 
+/* Contenedor del filtro */
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Etiqueta del select */
+.filter-container label {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #F7C608;
+}
+
+/* Estilos del select */
+.categoria-select {
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Estilos para el select cuando se hace hover */
+.categoria-select:hover {
+    border-color: #F7C608;
+}
+
+/* Estilos para el select cuando está enfocado */
+.categoria-select:focus {
+    border-color: rgb(247, 198, 8);
+    box-shadow: 0 0 5px rgba(247, 198, 8, 0.5);
+}
 
 
 img{
