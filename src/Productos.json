@@ -29,24 +29,17 @@
   },
   {
     "id": 5,
-    "nombre": "Macitas",
+    "nombre": "Masitas",
     "descripcion": "Descripción del Producto 5",
-    "imagen": "macitas.png",
+    "imagen": "masitas.png",
     "categoria": "Tortas"
   },
   {
     "id": 6,
-    "nombre": "Torta corazon decorada",
+    "nombre": "Torta estilo caja de bombones",
     "descripcion": "Descripción del Producto 6",
-    "imagen": "tortaCorazon.png",
+    "imagen": "torta_estilo_caja_de_bombones.jpg",
     "categoria": "Cupcakes"
-  },
-  {
-    "id": 7,
-    "nombre": "Tortitas negras",
-    "descripcion": "Descripción del Producto 7",
-    "imagen": "tortitasNegras.png",
-    "categoria": "Postres"
   },
   {
     "id": 8,
@@ -57,72 +50,51 @@
   },
   {
     "id": 9,
-    "nombre": "Producto 9",
+    "nombre": "Malvaviscos",
     "descripcion": "Descripción del Producto 9",
-    "imagen": "imagen2.webp",
-    "categoria": "Tortas"
+    "imagen": "malvaviscos.jpg",
+    "categoria": "Galletas"
   },
   {
     "id": 10,
-    "nombre": "Producto 10",
+    "nombre": "Merengadas",
     "descripcion": "Descripción del Producto 10",
-    "imagen": "imagen2.webp",
+    "imagen": "merengadas.jpg",
     "categoria": "Cupcakes"
   },
   {
     "id": 11,
-    "nombre": "Producto 11",
+    "nombre": "Pastafrola sin coco rayado",
     "descripcion": "Descripción del Producto 11",
-    "imagen": "imagen2.webp",
+    "imagen": "pastafrola_sin_coco_rayado.jpg",
     "categoria": "Postres"
   },
   {
     "id": 12,
-    "nombre": "Producto 12",
+    "nombre": "Pastafrola con coco rayado",
     "descripcion": "Descripción del Producto 12",
-    "imagen": "imagen2.webp",
+    "imagen": "pastafrola_con_coco_rayado.jpg",
     "categoria": "Galletas"
   },
   {
     "id": 13,
-    "nombre": "Producto 13",
+    "nombre": "Torta estilo caja de bombones",
     "descripcion": "Descripción del Producto 13",
-    "imagen": "imagen2.webp",
+    "imagen": "torta_estilo_caja_de_bombones.jpg",
     "categoria": "Tortas"
   },
   {
     "id": 14,
-    "nombre": "Producto 14",
+    "nombre": "Trota mamucha",
     "descripcion": "Descripción del Producto 14",
-    "imagen": "imagen2.webp",
+    "imagen": "torta_mamucha.jpg",
     "categoria": "Cupcakes"
   },
   {
     "id": 15,
-    "nombre": "Producto 15",
+    "nombre": "Torta tropical",
     "descripcion": "Descripción del Producto 15",
-    "imagen": "imagen2.webp",
+    "imagen": "torta_tropical.jpg",
     "categoria": "Postres"
-  },
-  {
-    "id": 16,
-    "nombre": "Producto 16",
-    "descripcion": "Descripción del Producto 16",
-    "imagen": "imagen2.webp",
-    "categoria": "Galletas"
-  },
-  {
-    "id": 17,
-    "nombre": "Producto 17",
-    "descripcion": "Descripción del Producto 17",
-    "imagen": "imagen2.webp",
-    "categoria": "Tortas"
-  },
-  {
-    "id": 18,
-    "nombre": "Producto 18",
-    "descripcion": "Descripción del Producto 18",
-    "imagen": "imagen2.webp",
-    "categoria": "Cupcakes"
   }
 ]

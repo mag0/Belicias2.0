@@ -10,7 +10,7 @@
 .contactanos h2 {
     margin: 0;
     font-size: 2em;
-    color: #F7C608;
+    color: #CB6CE6;
 }
 .contactanos p {
     font-size: 1.2em;
@@ -23,7 +23,7 @@
 }
 
 .contactanos p,a{
-    color: #F7C608;
+    color: #CB6CE6;
 }
 
 @media (max-width: 800px) {

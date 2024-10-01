@@ -23,8 +23,8 @@ footer ul li a {
     text-decoration: none;
 }
 
-footer ul li a:hover {
-    background-color: #f7c608;
+footer ul li a:hover{
+    color: #CB6CE6;
 }
 
 p {

@@ -18,7 +18,7 @@
 }
 
 .menu::-webkit-scrollbar-thumb {
-    background-color: #F7C608; /* Color del scroll */
+    background-color: #CB6CE6; /* Color del scroll */
     border-radius: 10px;
  /* Sombreado para que se vea en fondo blanco */
 }
@@ -39,7 +39,7 @@
 .filter-container label {
     font-size: 1.2em;
     margin-bottom: 0.5em;
-    color: #F7C608;
+    color: #CB6CE6;
 }
 
 /* Estilos del select */
@@ -57,12 +57,12 @@
 
 /* Estilos para el select cuando se hace hover */
 .categoria-select:hover {
-    border-color: #F7C608;
+    border-color: #CB6CE6;
 }
 
 /* Estilos para el select cuando está enfocado */
 .categoria-select:focus {
-    border-color: rgb(247, 198, 8);
+    border-color: #cd88e0;
     box-shadow: 0 0 5px rgba(247, 198, 8, 0.5);
 }
 

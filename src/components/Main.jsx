@@ -20,7 +20,7 @@ const Section = () => {
             <main>
                 <div id='menu' className="linea-con-texto">Productos</div>
                 
-                <div className="filter-container">
+                <div style={{display:"none"}} className="filter-container">
                     <label htmlFor="categoria">Filtrar por Categoría:</label>
                     <select id="categoria" value={categoria} onChange={handleCategoriaChange} className="categoria-select">
                         <option value="">Todas</option>
@@ -36,7 +36,7 @@ const Section = () => {
                     {productosFiltrados.map(producto => (
                     <div key={producto.id}>
                         <img src={`${producto.imagen}`} alt={producto.nombre} />
-                        <h3 style={{color:'#F7C608'}}>{producto.nombre}</h3>
+                        <h3 style={{color:'#CB6CE6'}}>{producto.nombre}</h3>
                     </div>
                     ))}
                 </div>
@@ -44,20 +44,14 @@ const Section = () => {
                 <div id='quienSoy' className="linea-con-texto">Conoceme</div>
 
                 <section className="quien-soy">
-                    <img src='perfil.jpeg' alt="" />                    
+                    <img src='perfil.png' alt="" />                    
                     <h1>María Belén Guerreiro</h1>
                     <p>
-                        ¡Hola! Soy Laura Martínez, una apasionada pastelera con 10 años de experiencia en 
-                        la creación de deliciosos y hermosos postres. Mi amor por la repostería comenzó desde joven, 
-                        experimentando con diferentes recetas en la cocina de mi familia. Me especializo en tortas 
-                        personalizadas, cupcakes gourmet y postres sin gluten, pero siempre estoy abierta a nuevos 
-                        desafíos y a personalizar mis creaciones según los gustos y necesidades de mis clientes. Cada 
-                        uno de mis productos es elaborado con ingredientes de la más alta calidad y mucho cariño, 
-                        asegurándome de que cada bocado sea una experiencia inolvidable. Ya sea para una boda, cumpleaños, 
-                        aniversario, o cualquier ocasión especial, me esfuerzo por hacer que mis postres no solo sean 
-                        deliciosos, sino también una pieza central que sorprenda y deleite a todos los invitados. Estoy 
-                        deseando poder endulzar tu día con mis creaciones. ¡No dudes en ponerte en contacto conmigo para 
-                        hacer realidad tu próxima idea deliciosa!.
+                        Apasionada por la pastelería, llevo años perfeccionando mis recetas para 
+                        ofrecer productos caseros y deliciosos. Desde tortas y postres hasta galletas 
+                        y panes, cada creación es el resultado de dedicación y amor por la repostería. 
+                        Mi objetivo es brindar productos de calidad, hechos a mano, utilizando ingredientes 
+                        frescos y naturales. ¡Descubre mis dulces y comparte momentos inolvidables con los tuyos!
                     </p>
                 </section>
 
@@ -74,7 +68,11 @@ const Section = () => {
                     </p>
                     <p>
                         <span className="icon">📍</span>
-                        123 Calle Principal, Ciudad, País
+                        Evaristo Carriego 1306
+                    </p>
+                    <p>
+                        <span className="icon">📸</span>
+                        <a href="https://www.instagram.com/belu_guerreiro/">Instagram</a>
                     </p>
                 </section>
             </main>

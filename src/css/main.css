@@ -14,7 +14,7 @@ main{
 .linea-con-texto::after {
     content: '';
     flex: 1;
-    border-bottom: 2px solid #F7C608;
+    border-bottom: 2px solid #CB6CE6;
 }
 
 .linea-con-texto:not(:empty)::before {
