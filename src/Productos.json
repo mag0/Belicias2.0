@@ -77,15 +77,8 @@
     "categoria": "Galletas"
   },
   {
-    "id": 13,
-    "nombre": "Torta estilo caja de bombones",
-    "descripcion": "Descripción del Producto 13",
-    "imagen": "torta_estilo_caja_de_bombones.jpg",
-    "categoria": "Tortas"
-  },
-  {
     "id": 14,
-    "nombre": "Trota mamucha",
+    "nombre": "Torta mamucha",
     "descripcion": "Descripción del Producto 14",
     "imagen": "torta_mamucha.jpg",
     "categoria": "Cupcakes"

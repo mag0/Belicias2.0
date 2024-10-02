@@ -20,7 +20,7 @@ const Section = () => {
             <main>
                 <div id='menu' className="linea-con-texto">Productos</div>
                 
-                <div style={{display:"none"}} className="filter-container">
+                <div className="filter-container">
                     <label htmlFor="categoria">Filtrar por Categoría:</label>
                     <select id="categoria" value={categoria} onChange={handleCategoriaChange} className="categoria-select">
                         <option value="">Todas</option>
@@ -59,16 +59,8 @@ const Section = () => {
 
                 <section className="contactanos">
                     <p>
-                        <span className="icon">📞</span>
-                        <a href="tel:+123456789">+123 456 789</a>
-                    </p>
-                    <p>
                         <span className="icon">✉️</span>
-                        <a href="mailto:info@example.com">info@example.com</a>
-                    </p>
-                    <p>
-                        <span className="icon">📍</span>
-                        Evaristo Carriego 1306
+                        <a href="mailto:maryy.belu1@gmail.com">maryy.belu1@gmail.com</a>
                     </p>
                     <p>
                         <span className="icon">📸</span>
