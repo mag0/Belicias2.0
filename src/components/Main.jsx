@@ -3,7 +3,7 @@ import '../css/main.css';
 import '../css/secciones/menu.css';
 import '../css/secciones/quienSoy.css';
 import '../css/secciones/contactanos.css';
-import productos from '../productos.json';
+import productos from '../../public/json/productos.json';
 import { useState } from 'react';
 
 const Section = () => {
@@ -20,7 +20,7 @@ const Section = () => {
             <main>
                 <div id='menu' className="linea-con-texto">Productos</div>
                 
-                <div className="filter-container">
+                {/* <div className="filter-container">
                     <label htmlFor="categoria">Filtrar por Categoría:</label>
                     <select id="categoria" value={categoria} onChange={handleCategoriaChange} className="categoria-select">
                         <option value="">Todas</option>
@@ -30,12 +30,12 @@ const Section = () => {
                         <option value="galletas">Galletas</option>
                         <option value="sin-gluten">Sin Gluten</option>
                     </select>
-                </div>
+                </div> */}
 
                 <div className="menu">
                     {productosFiltrados.map(producto => (
                     <div key={producto.id}>
-                        <img src={`${producto.imagen}`} alt={producto.nombre} />
+                        <img src={`img/${producto.imagen}`} alt={producto.nombre} />
                         <h3 style={{color:'#CB6CE6'}}>{producto.nombre}</h3>
                     </div>
                     ))}
@@ -44,14 +44,11 @@ const Section = () => {
                 <div id='quienSoy' className="linea-con-texto">Conoceme</div>
 
                 <section className="quien-soy">
-                    <img src='perfil.png' alt="" />                    
+                    <img src='img/perfil.png' alt="" />                    
                     <h1>María Belén Guerreiro</h1>
                     <p>
-                        Apasionada por la pastelería, llevo años perfeccionando mis recetas para 
-                        ofrecer productos caseros y deliciosos. Desde tortas y postres hasta galletas 
-                        y panes, cada creación es el resultado de dedicación y amor por la repostería. 
-                        Mi objetivo es brindar productos de calidad, hechos a mano, utilizando ingredientes 
-                        frescos y naturales. ¡Descubre mis dulces y comparte momentos inolvidables con los tuyos!
+                    Hace un par de años descubrí el maravilloso mundo de la pastelería y, desde entonces, no he parado de batir. Adoro cocinar tortas, masas y galletas. Me encanta diseñar formas, nuevas decoraciones y probar rellenos. Es un placer plasmar en mis productos los deseos y preferencias de mis clientes, y que mis preparaciones los dejen satisfechos y felices. Cocino para deleitarme y para que quienes compran mis productos también lo hagan.
+                    Elegí lo que más te guste y descubrí cómo estas delicias pueden alegrar tu día. ¡Contá conmigo para endulzar tus celebraciones!
                     </p>
                 </section>
 

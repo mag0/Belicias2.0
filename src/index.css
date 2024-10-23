@@ -10,3 +10,12 @@
 :root {
     --color-principal: #f47eae;
 }
+
+body {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee, #f8f9d2);
+    /* Opcional: para que el fondo cubra todo el contenido */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Cambia esto si necesitas otro tipo de fuente */
+}
