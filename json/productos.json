@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pan de campo",
+    "descripcion": "Descripción del Producto 1",
+    "imagen": "panDeCampo.png",
+    "categoria": "Tortas"
+  },
+  {
+    "id": 2,
+    "nombre": "Angel cake",
+    "descripcion": "Descripción del Producto 2",
+    "imagen": "angelCake.png",
+    "categoria": "Cupcakes"
+  },
+  {
+    "id": 3,
+    "nombre": "Alfajores de maicena",
+    "descripcion": "Descripción del Producto 3",
+    "imagen": "alfajoresDeMaicena.png",
+    "categoria": "Postres"
+  },
+  {
+    "id": 4,
+    "nombre": "Facturas de crema pastelera",
+    "descripcion": "Descripción del Producto 4",
+    "imagen": "facturasDeCrema.png",
+    "categoria": "Galletas"
+  },
+  {
+    "id": 5,
+    "nombre": "Masitas",
+    "descripcion": "Descripción del Producto 5",
+    "imagen": "masitas.png",
+    "categoria": "Tortas"
+  },
+  {
+    "id": 6,
+    "nombre": "Torta estilo caja de bombones",
+    "descripcion": "Descripción del Producto 6",
+    "imagen": "torta_estilo_caja_de_bombones.jpg",
+    "categoria": "Cupcakes"
+  },
+  {
+    "id": 8,
+    "nombre": "Tortitas negras",
+    "descripcion": "Descripción del Producto 8",
+    "imagen": "tortitasNegras2.png",
+    "categoria": "Galletas"
+  },
+  {
+    "id": 9,
+    "nombre": "Malvaviscos",
+    "descripcion": "Descripción del Producto 9",
+    "imagen": "malvaviscos.jpg",
+    "categoria": "Galletas"
+  },
+  {
+    "id": 10,
+    "nombre": "Merengadas",
+    "descripcion": "Descripción del Producto 10",
+    "imagen": "merengadas.jpg",
+    "categoria": "Cupcakes"
+  },
+  {
+    "id": 11,
+    "nombre": "Pastafrola sin coco rayado",
+    "descripcion": "Descripción del Producto 11",
+    "imagen": "pastafrola_sin_coco_rayado.jpg",
+    "categoria": "Postres"
+  },
+  {
+    "id": 12,
+    "nombre": "Pastafrola con coco rayado",
+    "descripcion": "Descripción del Producto 12",
+    "imagen": "pastafrola_con_coco_rayado.jpg",
+    "categoria": "Galletas"
+  },
+  {
+    "id": 14,
+    "nombre": "Torta mamucha",
+    "descripcion": "Descripción del Producto 14",
+    "imagen": "torta_mamucha.jpg",
+    "categoria": "Cupcakes"
+  },
+  {
+    "id": 15,
+    "nombre": "Torta tropical",
+    "descripcion": "Descripción del Producto 15",
+    "imagen": "torta_tropical.jpg",
+    "categoria": "Postres"
+  }
+]
