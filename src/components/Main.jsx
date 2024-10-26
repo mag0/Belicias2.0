@@ -9,9 +9,9 @@ import { useState } from 'react';
 const Section = () => {
     const [categoria, setCategoria] = useState('');
 
-    const handleCategoriaChange = (e) => {
-        setCategoria(e.target.value);
-    }
+    // const handleCategoriaChange = (e) => {
+    //     setCategoria(e.target.value);
+    // }
 
     const productosFiltrados = categoria === '' ? productos : productos.filter(producto => producto.categoria.toLowerCase() === categoria.toLowerCase());
 
