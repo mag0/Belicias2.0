@@ -59,8 +59,8 @@ const Section = () => {
                         <span className="icon">✉️</span>
                         <a href="mailto:maryy.belu1@gmail.com">maryy.belu1@gmail.com</a>
                     </p>
-                    <p>
-                        <span className="icon">📸</span>
+                    <p style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+                        <img src="/img/instagram.png" style={{width:'20px',marginRight:'.3em'}}/>
                         <a href="https://www.instagram.com/belu_guerreiro/">Instagram</a>
                     </p>
                 </section>
