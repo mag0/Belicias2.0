@@ -89,5 +89,12 @@
     "descripcion": "Descripción del Producto 15",
     "imagen": "torta_tropical.jpg",
     "categoria": "Postres"
+  },
+  {
+    "id": 16,
+    "nombre": "Cookies con chips de chocolate",
+    "descripcion": "Descripción del Producto 15",
+    "imagen": "cookies.jpg",
+    "categoria": "Postres"
   }
 ]

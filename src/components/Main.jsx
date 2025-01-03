@@ -35,7 +35,7 @@ const Section = () => {
                 <div className="menu">
                     {productosFiltrados.map(producto => (
                     <div key={producto.id}>
-                        <img src={`img/${producto.imagen}`} alt={producto.nombre} />
+                        <img style={{width:'100%', height: '18em'}} src={`img/${producto.imagen}`} alt={producto.nombre} />
                         <h3 style={{color:'#CB6CE6'}}>{producto.nombre}</h3>
                     </div>
                     ))}
